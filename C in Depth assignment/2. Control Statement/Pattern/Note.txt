@@ -1,0 +1,6 @@
+
+Steps to approach pattern Question:- 
+
+Step 1:- Number of times outer for- loop runs equals number of lines equals numnber of rows
+Step 2:- Identify for every row number how many columns are there.
+Step 3:- What do you need to print (type of printing star pattern, number pattern etc)

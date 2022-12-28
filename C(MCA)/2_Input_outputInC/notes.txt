@@ -1,0 +1,19 @@
+Conversion Specifiction for printf()
+1) %c:- prints a single character
+2) %d, %i:- prints a decimal integer
+3) %u:- prints an unsigned decimal integer
+4) %o:- prints an unsigned octal integer
+5) %x:- prints an hexadecimal integer using a,b,c,e,f.
+6) %X:- prints an  unsigned hexadecimal integer using A,B,C,D,E,f
+7) %f:- prints a floating point number, by default upto 6 digits printed after the point
+8) %e:- prints a floating point number in exponential format
+9) %E:- same as e, bu prints E for exponent
+10) %s:- prints a string
+11) %p:- prints a pointer in hexadecimal format
+
+=================================================
+Conversion specification for scanf()
+1) %c:- reads a single character
+2) %d:- reads a signed decimal integer
+3) %s:- reads a string
+4) %f:- prints a floating point number.

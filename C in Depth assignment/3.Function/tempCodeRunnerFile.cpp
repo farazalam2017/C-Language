@@ -1,0 +1,1 @@
+  cout << " Sum of proper divisors are:- " << sumPdivisors(num2);
