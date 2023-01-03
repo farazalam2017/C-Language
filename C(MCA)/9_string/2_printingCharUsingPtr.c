@@ -8,6 +8,7 @@ void main()
   while(*ptr!='\0')
   {
     printf("Character is:- %c\n", *ptr);
+    printf("Address is:- %p\n", ptr);
     ptr++;
   }
   
