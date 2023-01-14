@@ -1,18 +1,17 @@
 /* Passing individual elements to function */
 #include<stdio.h>
-int check(int []);
+int check(int num);
 void main()
 {
-  inr arr[5] = {1, 2, 3, 4, 5};
-  for (int i = 0; i < 5;i++)
+  int i, arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+  for (i = 0; i <= 9;i++)
   {
-    printf("Number is:- %d", i);
     check(arr[i]);
   }
-  int check(int arr[]){
-    if(arr == 0)
-      printf("Number is even");
-      else
-      printf("Number is odd");
-  }
+}
+int check(int num){
+  if(num%2 == 0)
+    printf("%d is Even\n",num);
+    else
+    printf("%d is Odd\n",num);
 }
