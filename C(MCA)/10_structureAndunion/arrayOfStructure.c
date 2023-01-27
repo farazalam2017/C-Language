@@ -22,7 +22,7 @@ void main()
   }
   printf("\n");
   printf("Name\tRoll Number\tSubject\n");
-  for (i = 0; i < ;i++)
+  for (i = 0; i <10 ;i++)
   {
     printf("%s\t%d\t\t%s\n", stuarr[i].name, stuarr[i].rollNo, stuarr[i].subject);
   }
